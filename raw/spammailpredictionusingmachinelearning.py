@@ -18,7 +18,7 @@ from sklearn.metrics import accuracy_score
 
 """2. load Dataset"""
 
-raw_mail_data = pd.read_csv('raw\mail_data.csv')
+raw_mail_data = pd.read_csv('mail_data.csv')
 
 raw_mail_data.head(10)
 
